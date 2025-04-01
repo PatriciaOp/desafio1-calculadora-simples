@@ -4,5 +4,7 @@
 </n>
  <h2>## Como usar--</h2>
 <p>1. Instale o Node.js
+</n>
  2. Clone o repositório
+ </n>
  3. Rode o comando: `node nome-do-arquivo.js`</p>
