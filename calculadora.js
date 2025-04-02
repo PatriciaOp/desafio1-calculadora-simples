@@ -14,23 +14,25 @@ function calculadora() {
         rl.question('Digite o segundo número: ', (num2) => {
             const numero2 = parseFloat(num2);
 
-            // Verifica se os números são válidos e diferentes de zero
             if (isNaN(numero1) || isNaN(numero2) || numero1 === 0 || numero2 === 0) {
                 console.log('Por favor, digite números válidos e diferentes de zero!\n');
                 return repetirOuSair();
             }
 
-            // Faz as operações
-            let soma = numero1 + numero2;
-            let subtracao = numero1 - numero2;
-            let multiplicacao = numero1 * numero2;
-            let divisao = numero1 / numero2;
-
+       
+       
+                     // Faz as operações
+                     let soma = numero1 + numero2;
+                     let subtracao = numero1 - numero2;
+                     let multiplicacao = numero1 * numero2;                   
+                     let divisao = numero1 / numero2;
+       
+             
             // Exibe os resultados
             console.log(`\nResultado: ${numero1} + ${numero2} = ${soma}`);
             console.log(`Resultado: ${numero1} - ${numero2} = ${subtracao}`);
             console.log(`Resultado: ${numero1} x ${numero2} = ${multiplicacao}`);
-            console.log(`Resultado: ${numero1} / ${numero2} = ${divisao}`);
+            console.log(`Resultado: ${numero1} / ${numero2} = ${(divisao).toFixed(2)}`);
 
             repetirOuSair();
         });
