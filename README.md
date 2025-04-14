@@ -1,10 +1,43 @@
-<h1> # Calculadora Simples em Node.js </h1>
- 
-<p>Este é um projeto de uma calculadora simples no terminal usando `readline` com Node.js. O usuário informa dois números e recebe como resultado: soma, subtração, multiplicação e divisão (com tratamento de divisão por zero).</p>
+# 🧮 Calculadora de Operações Básicas
 
- <h2>## Como usar--</h2>
-<p>1. Instale o Node.js
-<br/>
- 2. Clone o repositório
- <br/>
- 3. Rode o comando: `node nome-do-arquivo.js`</p>
+Este é um programa em Node.js que permite ao usuário realizar as quatro operações matemáticas básicas (adição, subtração, multiplicação e divisão) com dois números inseridos via terminal.
+
+## ✨ Funcionalidades
+
+- Entrada de dois números pelo terminal.
+- Validação para garantir que os números sejam válidos e diferentes de zero.
+- Cálculo e exibição dos resultados de:
+  - Soma
+  - Subtração
+  - Multiplicação
+  - Divisão (com duas casas decimais)
+- Opção de repetir os cálculos ou encerrar o programa.
+
+## 💻 Tecnologias utilizadas
+
+- [Node.js](https://nodejs.org/)
+- Módulo nativo [`readline`](https://nodejs.org/api/readline.html) para entrada e saída no terminal.
+
+## 📥 Instalação e uso
+
+1. Certifique-se de que o [Node.js](https://nodejs.org/) está instalado em sua máquina.
+2. Crie um arquivo chamado `calculadora.js` e cole o código-fonte nele.
+3. No terminal, navegue até a pasta onde o arquivo está salvo.
+4. Execute o programa com o comando:
+
+   ```bash
+   node calculadora.js
+
+## 🚀 Autor
+Desenvolvido por **Patricia Pelizon**
+
+
+
+
+
+
+
+
+ 
+
+
